@@ -1,0 +1,8 @@
+plt.plot(Temp, Min_Distance)
+plt.title("Distance vs Temperature", fontsize = 20, fontweight ='bold')
+plt.xlabel("Temperature", fontsize = 18, fontweight = 'bold')
+plt.ylabel("Distance", fontsize=18, fontweight = 'bold')
+plt.xlim(3000,0)
+plt.xticks(np.arrange(min(Temp), max(Temp), 100), fontweight = 'bold')
+plt.yticks(fontweight = 'bold')
+plt.show()
